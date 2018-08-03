@@ -1,0 +1,84 @@
+.news{
+  width: 800px%;
+border-radius: 20px;
+margin: 0 auto;
+}
+h1{
+  text-align: center;
+}
+.h,
+.h1,
+.h2,
+.h3,
+.h5,
+.h6,
+.h7,
+.h8{
+  background-color: #F3E4F1   ;
+  border-radius: 20px;
+  padding: 0.5%;
+  margin: 0.5%;
+}
+p{
+  text-align:justify;
+}
+@media  only screen and (min-width:800px) {
+  .news{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 800px;
+    border-radius: 20px;
+    margin: 0 auto;
+  }
+  .h{ width: 58%}
+  .h1{ width: 38%}
+  .h2{ width: 31.33%}
+  .h3{ width: 31.33}
+
+  .h5{ width: 48%}
+  .h6{ width: 48%}
+  .h7{ width: 48%}
+  .h8{ width: 48%}
+
+
+}
+@media  only screen and (min-width:600px) and (max-width:799px){
+  .news{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 800px;
+    border-radius: 20px;
+    margin: 0 auto;
+  }
+  .h{ width: 98%}
+  .h1{ width: 48%}
+  .h2{ width: 48%}
+  .h3{ width: 48%}
+  .h5{ width: 98%}
+  .h6{ width: 31.33%}
+  .h7{ width: 31.33%}
+  .h8{ width: 31.33%}
+
+}
+media  only screen and (min-width:800px) {
+  .news{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 800px;
+    border-radius: 20px;
+    margin: 0 auto;
+  }
+  .h{ width: 98%}
+  .h1{ width: 98%}
+  .h2{ width: 98%}
+  .h3{ width: 98%}
+  .h5{ width: 98%}
+  .h6{ width: 98%}
+  .h7{ width: 98%}
+  .h8{ width: 98%}
+
+
+}
